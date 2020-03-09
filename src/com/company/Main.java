@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
     }
 
-
+    // adding comment
     public static int Add (int a, int b) {
         return a + b;
     }
