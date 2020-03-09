@@ -1,4 +1,6 @@
-package com.company;
+
+
+import com.company.TextExcel;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -16,13 +18,13 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void add() {
-        int sum = Main.Add(3, 4);
+        int sum = TextExcel.Add(3, 4);
         assertEquals(7, sum);
     }
 
     @org.junit.jupiter.api.Test
     void add_invalid() {
-        int sum = Main.Add(4, 4);
+        int sum = TextExcel.Add(4, 4);
         assertEquals(7, sum);
     }
 }
